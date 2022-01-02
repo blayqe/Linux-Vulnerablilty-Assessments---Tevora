@@ -1,3 +1,14 @@
+Upon sampling a Linux server you came across the following:
+
+[root@prod01 ~]# cat /etc/shadow
+root:$1$5f4dcc3b5aa765d61d8327deb882cf99:15651:0:99999:7:::
+
+Please list at least 3 risk’s observed with the above output, details about the risk, and what would the remediation steps be. 
+
+
+_____________________________________________________________________________________________________________________________________________________________
+
+
 After examining the above output, I have noticed three very important vulnerabilities that could cause major complications and damage to any company if left unchecked.
 
 Vulnerability Number 1: Use of “Root Account”
